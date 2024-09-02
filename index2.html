@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript_AppendChild-practice</title>
+</head>
+<body>
+
+
+    <ol id="container">  <!-- parent id -->
+        <li>MiniCupper</li>  <!-- element li -->
+        <li>Lamborghini</li>
+        <li>Ferrari</li>
+    </ol>
+    
+    <script>  
+
+    const container = document.getElementById('container')
+    
+    //   Now Create a child elements
+
+    var newContainer = document.createElement("li")
+
+    newContainer.innerText = "Honda";
+
+    container.appendChild(newContainer);
+
+
+
+
+        </script>
+
+
+
+
+</body>
+</html>

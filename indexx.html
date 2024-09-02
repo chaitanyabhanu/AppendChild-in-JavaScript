@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-AppendChild</title>
+
+
+    
+</head>
+<body>
+     
+      <ul id="myList">  <!-- Parent Element -->
+        <li>Ford</li>  <!-- Child Elements -->
+        <li>Mini</li>
+      </ul>       
+
+       <script>
+                  
+                //     Parent declaration
+           const myList = document.getElementById('myList')
+
+        //     now Create a new Child
+            // we are creating a new element by createElement
+        let newListItem = document.createElement('li')
+
+        newListItem.textContent = " Roll's Royals";
+
+        myList.appendChild(newListItem);
+
+
+
+
+
+      </script>
+ 
+
+
+</body>
+</html>
